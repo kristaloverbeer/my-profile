@@ -1,0 +1,106 @@
+body {
+    font-family: "Lora", serif;
+    font-size: 17px;
+    font-weight: 300;
+    background-color: #f9f7f7;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    color: #112d4e;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+div {
+    display: block;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.container {
+    width: 700px;
+    margin: 30px auto;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+.h2-dark-blue {
+    color: #3f72af;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-white {
+    margin: 20px 0px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn-blue {
+    text-decoration: none;
+    background-color: #112d4e;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 4px;
+}
+
+.paragraph-grey {
+    margin: 30px;
+    opacity: 0.8;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+.btn-light-blue {
+    text-decoration: none;
+    padding: 5px 5px;
+    color: #dbe2ef;
+}
+
+.btn-light-blue:hover {
+    color: #3f72af;
+}
+
+.img-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#introduction p {
+    margin-bottom: 30px;
+}
